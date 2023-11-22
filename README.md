@@ -1,6 +1,7 @@
 # Rapid, open-source, cross-platform 3D multiparametric mapping for multisite neuroimaging
 
 
+![Alt text](figures/Figure1.png?raw=true "Pulseq-QALAS")
 ![Alt text](figures/pulseq_qalas.jpg?raw=true "Pulseq-QALAS")
 
 This is the official code for **"Rapid, open-source, cross-platform 3D multiparametric mapping for multisite neuroimaging"**.
