@@ -6,7 +6,7 @@ Pulse sequence and reconstruction code are shared.
 
 An open-source implementation across different vendors and scanners, along with a consistent reconstruction and fitting pipeline, improved measurement reproducibility. This approach facilitates data harmonization, version control and error-propagation assessment, making it also suitable for extracting quantitative information for downstream analysis.
 
-This code requires [Pulseq](https://github.com/pulseq) and also [TOPPE](https://toppemri.github.io/) for running on GE scanners.
+This code requires [Pulseq](https://github.com/pulseq). [TOPPE](https://toppemri.github.io/) is used for running on GE scanners.
 
 ![Alt text](figures/Figure1.png?raw=true "Pulseq-QALAS")
 ![Alt text](figures/pulseq_qalas.jpg?raw=true "Pulseq-QALAS")
