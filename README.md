@@ -7,4 +7,3 @@ Pulse sequence and reconstruction code are shared.
 ![Alt text](figures/Figure1.png?raw=true "Pulseq-QALAS")
 ![Alt text](figures/pulseq_qalas.jpg?raw=true "Pulseq-QALAS")
 
-If you have any questions/comments/suggestions, please contact at XXX (anonimized for review)
