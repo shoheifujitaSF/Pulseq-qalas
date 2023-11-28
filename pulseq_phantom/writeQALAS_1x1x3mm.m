@@ -2,6 +2,9 @@
 % Define high-level parameters
 %--------------------------------------------------------------------------
 
+% https://github.com/pulseq/pulseq.git
+addpath(genpath('path-to-pulseq/pulseq-master'));
+
 % Set system parameters
 sys = mr.opts('MaxGrad', 32, 'GradUnit', 'mT/m', ...
               'MaxSlew', 160, 'SlewUnit', 'T/m/s', ...
