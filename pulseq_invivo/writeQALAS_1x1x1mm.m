@@ -2,6 +2,9 @@
 % Define high-level parameters
 %--------------------------------------------------------------------------
 
+% https://github.com/pulseq/pulseq.git
+addpath(genpath('path-to-pulseq/pulseq-master'));
+
 sys = mr.opts('MaxGrad', 32, 'GradUnit', 'mT/m', ...
               'MaxSlew', 160, 'SlewUnit', 'T/m/s', ...
               'rfDeadTime', 100e-6, ...
@@ -14,7 +17,7 @@ sys = mr.opts('MaxGrad', 32, 'GradUnit', 'mT/m', ...
 
 
 % Load ky-kz trajectory data
-traj = readmatrix('fov_240x208_msize_240x208_tl_127_ncal_24_spiral_30_acc_2.2x2.2_nTR64.txt');
+traj = readmatrix('csv_imports/fov_240x208_msize_240x208_tl_127_ncal_24_spiral_30_acc_2.2x2.2_nTR64.txt');
 traj = traj(:,[3,2,1]); %[index ky_position kz_position]
 nETL = 127;
 nTR = size(traj,1)/nETL;
