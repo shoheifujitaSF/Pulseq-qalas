@@ -1,11 +1,14 @@
 set(0,'DefaultFigureWindowStyle','docked')
 addpath utils/
+addpath(genpath('/cluster/berkin/berkin/Matlab_Code_New/LIBRARY/'))
 clear;close all;clc;
+
 
 img_path = '/path_to_nii/qalas_1x1x1mm.nii';
 b1_path = '/path_to_b1/b1map.nii';
 save_filename = 'prisma_ve11c';
 slice_selection = 29;
+
 
 %--------------------------------------------------------------------------
 %% load qalas data  
@@ -29,6 +32,7 @@ img = niftiread(img_path);
 
 img_b1_load = niftiread(b1_path);
 img_b1 = double(img_b1_load)/800;       % reference fa 800
+%img_b1 = imrotate(img_b1,90);           %  to match img orientation
 img_b1 = imresize3(img_b1, size(img(:,:,:,1))); %  to match img size
 
 %--------------------------------------------------------------------------
