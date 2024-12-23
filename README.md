@@ -1,8 +1,8 @@
 # Rapid, open-source, cross-platform 3D multiparametric mapping for multisite neuroimaging
 
 This is the official code for **"Rapid, open-source, cross-platform 3D multiparametric mapping for multisite neuroimaging"**.
-The related abstract is submitted to [International Society for Magnetic Resonance in Medicine (ISMRM) Annual Meeting 2024](https://www.ismrm.org/24m/).
-Pulse sequence and reconstruction code are shared.
+The related abstract has been presented at [International Society for Magnetic Resonance in Medicine (ISMRM) Annual Meeting 2024](https://www.ismrm.org/24m/).
+Reconstruction and fitting code are shared.
 
 An open-source implementation across different vendors and scanners, along with a consistent reconstruction and fitting pipeline, improved measurement reproducibility. This approach facilitates data harmonization, version control and error-propagation assessment, making it also suitable for extracting quantitative information for downstream analysis.
 
