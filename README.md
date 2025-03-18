@@ -8,6 +8,6 @@ An open-source implementation across different vendors and scanners, along with 
 
 This code requires [Pulseq](https://github.com/pulseq). [TOPPE](https://toppemri.github.io/) is used for running on GE scanners.
 
-![Alt text](figure/Figure1.tiff?raw=true "Pulseq-QALAS")
-![Alt text](figure/Figure3.tiff?raw=true "Pulseq-QALAS")
+![Alt text](figure/overview.png?raw=true "Pulseq-QALAS")
+![Alt text](figure/nist.png?raw=true "Pulseq-QALAS")
 
