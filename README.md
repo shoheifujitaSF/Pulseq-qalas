@@ -10,9 +10,9 @@ This code requires [Pulseq](https://github.com/pulseq). [TOPPE](https://toppemri
 
 Example data can be downloaded from:
 
-https://doi.org/10.5281/zenodo.15045881 (raw kspace data for reconstruction)
+https://doi.org/10.5281/zenodo.15045881
 
-https://doi.org/10.5281/zenodo.15045989 (nifti files for parameter fitting)
+https://doi.org/10.5281/zenodo.15045989
 
 ![Alt text](figure/overview.png?raw=true "Pulseq-QALAS")
 ![Alt text](figure/nist.png?raw=true "Pulseq-QALAS")
